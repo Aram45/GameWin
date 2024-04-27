@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+		<div class="logo">
+			<h1>Warface</h1>
+		</div>
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Places.html">Places</a></li>
+				<li><a href="Discounts.html">Discounts</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+				
+			</ul>
+		</div>
+		<div class="signup">
+			<a href="login.html">Sign up</a>
+		</div>
+	</div>
+    </div>
+    <div id="main">
+        <h2>Contact Us</h2>
+        <form enctype="multipart/form-data" method="POST">
+        <input
+        type="text"
+        size="33"
+        placeholder="Enter Your Name"
+        id="firstname"
+        autofocus
+        />
+        <input
+        type="email"
+        id="eid"
+        placeholder="Enter Your Email"
+        size="33"
+        />
+        <div id="numb">
+        <select name="telcode" width="5">
+        <option selected>+91</option>
+        <option>+374</option>
+        <option>+7</option>
+        <option>+99</option>
+        <option>+45</option>
+        </select>
+        <input
+        type="tel"
+        size="25"
+        placeholder="Contact Number"
+        id="mobno"
+        maxlength="10"
+        />
+        </div>
+        <textarea cols="20" rows="6" id="msg" name="msag" placeholder="Enter a Message"> </textarea>
+        <input id="submit" type="submit" value="Send Message" />
+        </form>
+        </div>
+       
+
+</body>
+</html>
